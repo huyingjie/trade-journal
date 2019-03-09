@@ -120,7 +120,7 @@ widgets:
         # Author name to be shown in the profile widget
         author: Yingjie Hu
         # Title of the author to be shown in the profile widget
-        author_title:
+        author_title: 缠中说禅实践者
         # Author's current location to be shown in the profile widget
         location:
         # Path or URL to the avatar to be shown in the profile widget
