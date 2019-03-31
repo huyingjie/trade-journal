@@ -10,7 +10,9 @@
         <% if (post.layout != 'page') { %>
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="<%= date_xml(post.date) %>"><%= date(post.date) %></time>
+                <span class="level-item has-text-grey">
+                  <%= date(post.date) %>
+                </span>
                 <% if (post.categories && post.categories.length) { %>
                 <div class="level-item">
                 <%- list_categories(post.categories, {
